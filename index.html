@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>임가네</title>
+		<link rel="stylesheet" href="css/style.css" \ />
+	</head>
+
+	<body>
+		<section class="center">
+			<div id="weather"></div>
+			<div id="clock"></div>
+			<div id="login">
+				<form id="login-form" class="hidden">
+					<input
+						class="login-input"
+						required
+						type="text"
+						placeholder="Who you are ?"
+					/>
+				</form>
+				<span id="greeting" class="hidden"> </span>
+			</div>
+			<div id="todo">
+				<form id="todo-form">
+					<input
+						class="todo-input"
+						required
+						type="text"
+						placeholder="Write your tasks"
+					/>
+				</form>
+				<ul id="todo-list"></ul>
+			</div>
+			<div id="quote">
+				<span></span>
+				<span></span>
+			</div>
+		</section>
+
+		<script src="js/login.js"></script>
+		<script src="js/clock.js"></script>
+		<script src="js/background.js"></script>
+		<script src="js/todo.js"></script>
+		<script src="js/quotes.js"></script>
+		<script src="js/weather.js"></script>
+	</body>
+</html>
